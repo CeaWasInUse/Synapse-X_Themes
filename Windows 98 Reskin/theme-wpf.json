@@ -1,0 +1,545 @@
+{
+  "Version": 2,
+  "Load": {
+    "Base": {
+      "Image": {
+        "Path": "https://cdn.discordapp.com/attachments/846237241264439326/983129885780357200/Loader.jpg",
+        "Online": true
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 51,
+        "G": 51,
+        "B": 51
+      },
+      "TopMost": true,
+      "Opacity": 1.0
+    },
+    "BaseStrings": {
+      "CheckingWhitelist": "Checking whitelist...",
+      "ChangingWhitelist": "Changing whitelist...",
+      "DownloadingData": "Downloading data...",
+      "CheckingData": "Checking data...",
+      "DownloadingDlls": "Downloading DLLs...",
+      "DownloadingMonaco": "Downloading Monaco...",
+      "DownloadingCefSharp": "Downloading CefSharp...",
+      "DownloadingSQLite": "Downloading SQLite...",
+      "JoiningDiscord": "Joining Discord...",
+      "Ready": "Ready!"
+    },
+    "Logo": {
+      "Image": {
+        "Path": "https://media.discordapp.net/attachments/846237241264439326/983120357055692861/windows-98-logo.png?width=807&height=700",
+        "Online": false
+      }
+    },
+    "TopBox": {
+      "Enabled": true,
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      }
+    },
+    "TitleBox": {
+      "Enabled": true,
+      "Font": {
+        "Name": "Microsoft Sans Serif",
+        "Size": 12.0
+      },
+      "Text": "Synapse 98 - Loader",
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 255,
+        "G": 255,
+        "B": 255
+      }
+    },
+    "StatusBox": {
+      "Enabled": true,
+      "Font": {
+        "Name": "Microsoft Sans Serif",
+        "Size": 14.0
+      },
+      "Text": "Initializing...",
+      "BackColor": {
+        "A": 0,
+        "R": 51,
+        "G": 51,
+        "B": 51
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      }
+    }
+  },
+  "Main": {
+    "Base": {
+      "Image": {
+        "Path": "https://cdn.discordapp.com/attachments/846237241264439326/983129886082342922/Main.jpg",
+        "Online": true
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 51,
+        "G": 51,
+        "B": 51
+      },
+      "TopMost": true,
+      "Opacity": 1.0
+    },
+    "WebSocket": {
+      "Enabled": false,
+      "DebugMode": false
+    },
+    "Editor": {
+      "Light": true,
+      "FixPixel": {
+        "A": 255,
+        "R": 30,
+        "G": 30,
+        "B": 30
+      }
+    },
+    "BaseStrings": {
+      "Checking": " (checking...)",
+      "Injecting": " (injecting...)",
+      "CheckingWhitelist": " (checking whitelist...)",
+      "Scanning": " (scanning...)",
+      "Ready": " (ready!)",
+      "FailedToFindRoblox": " (failed to find roblox!)",
+      "NotRunningLatestVersion": " (not running latest version! relaunch.)",
+      "NotInjected": " (not injected! press attach)",
+      "AlreadyInjected": " (already injected!)"
+    },
+    "RightClickStrings": {
+      "Execute": "Execute",
+      "LoadToEditor": "Load to Editor",
+      "Refresh": "Refresh"
+    },
+    "Logo": {
+      "Image": {
+        "Path": "https://media.discordapp.net/attachments/846237241264439326/983120357055692861/windows-98-logo.png?width=807&height=700",
+        "Online": false
+      }
+    },
+    "TopBox": {
+      "Enabled": true,
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      }
+    },
+    "TitleBox": {
+      "Enabled": true,
+      "Font": {
+        "Name": "Microsoft Sans Serif",
+        "Size": 12.0
+      },
+      "FormatString": "Synapse 98 - {version}",
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 255,
+        "G": 255,
+        "B": 255
+      }
+    },
+    "ScriptBox": {
+      "Font": {
+        "Name": "MS Gothic",
+        "Size": 12.0
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      }
+    },
+    "MinimizeButton": {
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "GlyphColor": {
+        "A": 255,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      }
+    },
+    "ExitButton": {
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "GlyphColor": {
+        "A": 255,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      }
+    },
+    "ExecuteButton": {
+      "Image": {
+        "Path": "",
+        "Online": false
+      },
+      "Font": {
+        "Name": "MS Gothic",
+        "Size": 14.0
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "Text": "Execute"
+    },
+    "ClearButton": {
+      "Image": {
+        "Path": "",
+        "Online": false
+      },
+      "Font": {
+        "Name": "MS Gothic",
+        "Size": 14.0
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "Text": "Clear"
+    },
+    "OpenFileButton": {
+      "Image": {
+        "Path": "",
+        "Online": false
+      },
+      "Font": {
+        "Name": "MS Gothic",
+        "Size": 14.0
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "Text": "Open File"
+    },
+    "ExecuteFileButton": {
+      "Image": {
+        "Path": "",
+        "Online": false
+      },
+      "Font": {
+        "Name": "MS Gothic",
+        "Size": 14.0
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "Text": "Execute File"
+    },
+    "SaveFileButton": {
+      "Image": {
+        "Path": "",
+        "Online": false
+      },
+      "Font": {
+        "Name": "MS Gothic",
+        "Size": 14.0
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "Text": "Save File"
+    },
+    "OptionsButton": {
+      "Image": {
+        "Path": "",
+        "Online": false
+      },
+      "Font": {
+        "Name": "MS Gothic",
+        "Size": 14.0
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "Text": "Options"
+    },
+    "AttachButton": {
+      "Image": {
+        "Path": "",
+        "Online": false
+      },
+      "Font": {
+        "Name": "MS Gothic",
+        "Size": 14.0
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "Text": "Attach"
+    },
+    "ScriptHubButton": {
+      "Image": {
+        "Path": "",
+        "Online": false
+      },
+      "Font": {
+        "Name": "MS Gothic",
+        "Size": 14.0
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "TextNormal": "Script Hub",
+      "TextYield": "Starting..."
+    }
+  },
+  "ScriptHub": {
+    "Base": {
+      "Image": {
+        "Path": "https://cdn.discordapp.com/attachments/846237241264439326/983129886329815070/Script_Hub.jpg",
+        "Online": true
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 51,
+        "G": 51,
+        "B": 51
+      },
+      "TopMost": true,
+      "Opacity": 1.0
+    },
+    "Logo": {
+      "Image": {
+        "Path": "https://media.discordapp.net/attachments/846237241264439326/983120357055692861/windows-98-logo.png?width=807&height=700",
+        "Online": false
+      }
+    },
+    "TopBox": {
+      "Enabled": true,
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      }
+    },
+    "TitleBox": {
+      "Enabled": true,
+      "Font": {
+        "Name": "MS Gothic",
+        "Size": 12.0
+      },
+      "Text": "Synapse 98 - Script Hub",
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 255,
+        "G": 255,
+        "B": 255
+      }
+    },
+    "ScriptBox": {
+      "Font": {
+        "Name": "MS Gothic",
+        "Size": 12.0
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 30,
+        "G": 30,
+        "B": 30
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      }
+    },
+    "DescriptionBox": {
+      "Font": {
+        "Name": "MS Gothic",
+        "Size": 12.0
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 30,
+        "G": 30,
+        "B": 30
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      }
+    },
+    "MinimizeButton": {
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "GlyphColor": {
+        "A": 255,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      }
+    },
+    "ExecuteButton": {
+      "Image": {
+        "Path": "",
+        "Online": false
+      },
+      "Font": {
+        "Name": "MS Gothic",
+        "Size": 12.0
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "TextNormal": "Execute",
+      "TextYield": "Executing..."
+    },
+    "CloseButton": {
+      "Image": {
+        "Path": "",
+        "Online": false
+      },
+      "Font": {
+        "Name": "MS Gothic",
+        "Size": 12.0
+      },
+      "BackColor": {
+        "A": 0,
+        "R": 60,
+        "G": 60,
+        "B": 60
+      },
+      "TextColor": {
+        "A": 255,
+        "R": 0,
+        "G": 0,
+        "B": 0
+      },
+      "Text": "Close"
+    }
+  }
+}
