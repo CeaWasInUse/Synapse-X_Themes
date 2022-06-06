@@ -5,9 +5,9 @@ This repository consists of all my Synapse X Themes that I have uploaded and/or 
 
 # Current Themes
 - Windows 98 Reskin
+- Windows XP Reskin
 
 # Planned Themes
-- Windows XP
 - Windows 10
 - Clean Dark
 - MacOS
