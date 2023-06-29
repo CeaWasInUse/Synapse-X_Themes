@@ -1,5 +1,5 @@
 <center>
-  # These themes are now discontinued. No further updates/releases will come.
+  <h2>These themes are now discontinued. No further updates/releases will come.</h2>
 </center>
 
 # My Synapse X Themes
